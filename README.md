@@ -1,6 +1,6 @@
-# LAB 02
+# LAB 03
 
-## About Me, with a guessing game
+## Extend your 'About Me' and guessing game
 
 I build a website that allows the interaction with the user by asking him or her some questions about me in a funny way as a guessing game using JavaScript language and show the user if the answer is correct or not.
 On the other hand, make the user feel happy by greeting him or her using his or her name in the greetings message.
