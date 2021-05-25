@@ -2,15 +2,16 @@
 
 ## Extend your 'About Me' and guessing game
 
-I build a website that allows the interaction with the user by asking him or her some questions about me in a funny way as a guessing game using JavaScript language and show the user if the answer is correct or not.
-On the other hand, make the user feel happy by greeting him or her using his or her name in the greetings message.
+I build a website that allows the interaction with the users by asking them some questions about me in a funny way as a guessing game using JavaScript language and show the users if the answer is correct or not.
+On the other hand, make the users feel happy by greeting them using their name in the greetings message.
+Also, I give the users many attempts if they answered wrong so they can answer the question again, at the end I showed them their final score to make them feel fun.
 
 ### Author: Rawan Alazazi
 
 ### Links and Resources
 
 - My notes during the lecture
-- [Resource](https://codefellows.github.io/code-201-guide/curriculum/class-02/project_setup)
+- [Resource](https://github.com/LTUC/amman-201d26/blob/main/class-03/demo/js/app.js)
 
 ### Reflections and Comments
 
@@ -24,3 +25,5 @@ Actually I am evaluating everything that I've learned continuously to make sure 
 - I've learned using very important languages in software development such as HTML, CSS, JavaScript, and Markdown. Also I've learned how to use many different tools to write codes and creating repositories like: GitHub, Replit, Git, and Visual Studio. I also practiced the A-C-P which is very beneficial method to clone the codes from cloud/online to my local machine and how to make changes on the codes in my local machine and then pushing up my work  online(GitHub) to share my work with others.
 
 - At this lab I practiced a very useful stuff and learning how to allow the interaction with the browser using JS codes and statements such as : if, switch, and I learned how to ask the user for something using promot and how to display a response for the user using alerts.
+- I've used (break) to break out the loop and I practiced the usage of nested loops, it was pretty hard but it is okay I did it at the end, and I was very useful thing to learn.
+- I practiced the usage of logical operators which are very important for JS codes.
