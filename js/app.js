@@ -119,7 +119,7 @@ if(maritalStatus==='yes'){
 
 
 
-for (let i = 1; i <= 4; i++) {
+for (let i = 0; i <4; i++) {
   let age = prompt('Guess How old am I? pick a number from 20 to 25');
   age = Number(age);
   if (age === 23) { score++;
@@ -132,10 +132,13 @@ for (let i = 1; i <= 4; i++) {
   } else if (age === 22 || age === 24) {
     alert('Awww dear not really, but you are too close');
   } else {
-    alert('Please only choose a number from 20 to 25');
+    alert('Please only choose a number from 20 to 25'); 
+    // console.log(i);
+  }
+  if(i===3){
+    alert('I am 23, Thanks for your trials ^-^');
   }
 }
-alert('I am 23, Thanks for your trial ^-^');
 
 let typesOfMovies = ['horror', 'thriller', 'comedy', 'action'];
 
