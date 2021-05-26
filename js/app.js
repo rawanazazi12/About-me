@@ -140,27 +140,29 @@ function question5(){
 question5();
 
 // Question6
-
-for (let i = 0; i <4; i++) {
-  let age = prompt('Guess How old am I? pick a number from 20 to 25');
-  age = Number(age);
-  if (age === 23) { score++;
-    alert('Bravo, your guessing is correct');
-    break;
-  } else if (19 < age && age < 22) {
-    alert('Nope, your guessing is too low');
-  } else if (age === 25) {
-    alert('Nope, your guessing is too high');
-  } else if (age === 22 || age === 24) {
-    alert('Awww dear not really, but you are too close');
-  } else {
-    alert('Please only choose a number from 20 to 25');
+function question6(){
+  for (let i = 0; i <4; i++) {
+    let age = prompt('Guess How old am I? pick a number from 20 to 25');
+    age = Number(age);
+    if (age === 23) { score++;
+      alert('Bravo, your guessing is correct');
+      break;
+    } else if (19 < age && age < 22) {
+      alert('Nope, your guessing is too low');
+    } else if (age === 25) {
+      alert('Nope, your guessing is too high');
+    } else if (age === 22 || age === 24) {
+      alert('Awww dear not really, but you are too close');
+    } else {
+      alert('Please only choose a number from 20 to 25');
     // console.log(i);
-  }
-  if(i===3){
-    alert('I am 23, Thanks for your trials ^-^');
+    }
+    if(i===3){
+      alert('I am 23, Thanks for your trials ^-^');
+    }
   }
 }
+question6();
 // Question7
 
 let typesOfMovies = ['horror', 'thriller', 'comedy', 'action'];
