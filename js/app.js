@@ -85,29 +85,32 @@ function question3(){
 }
 question3 ();
 // Question4
-let tall = prompt('Do you guess that I\'m tall?');
-switch (tall.toLowerCase()) {
-case 'yes':
-case 'y':
-  alert('Bravo, true ^.^ my tall is 1.66m ');
-  score++;
-  break;
-case 'no':
-case 'n':
-  alert('Haha not true, my tall is 1.66m');
-  break;
-default:
-  alert('Please answer with yes/no or y/n');
-  break;
-}
-tall=tall.toLowerCase();
-if(tall==='yes'){
+function question4 (){
+  let tall = prompt('Do you guess that I\'m tall?');
+  switch (tall.toLowerCase()) {
+  case 'yes':
+  case 'y':
+    alert('Bravo, true ^.^ my tall is 1.66m ');
+    score++;
+    break;
+  case 'no':
+  case 'n':
+    alert('Haha not true, my tall is 1.66m');
+    break;
+  default:
+    alert('Please answer with yes/no or y/n');
+    break;
+  }
+  tall=tall.toLowerCase();
+  if(tall==='yes'){
   //console.log('Congratulations, you\'re answer is correct');//
-  alert('Congratulations, you\'re answer is correct');
-}else if(tall==='y'){
+    alert('Congratulations, you\'re answer is correct');
+  }else if(tall==='y'){
   //console.log('Congratulations, you\'re answer is correct');//
-  alert('Congratulations, you\'re answer is correct');
+    alert('Congratulations, you\'re answer is correct');
+  }
 }
+question4 ();
 // Question5
 let maritalStatus = prompt('Do you think that I\'m single ?');
 switch (maritalStatus.toLowerCase()) {
