@@ -31,29 +31,32 @@ function question1(){
 question1();
 
 // Question2
-let drivingLicense = prompt('Do you think that I have a driving license?');
-switch (drivingLicense.toUpperCase()) {
-case 'YES':
-case 'Y':
-  alert('No dear, unfortunately I don\'t have');
-  break;
-case 'NO':
-case 'N':
-  alert('Yeah you are right, I\'m afraid driving');
-  score++;
-  break;
-default:
-  alert('Please answer with yes/no or y/n');
-  break;
-}
-drivingLicense=drivingLicense.toUpperCase();
-if(drivingLicense==='NO'){
+function question2(){
+  let drivingLicense = prompt('Do you think that I have a driving license?');
+  switch (drivingLicense.toUpperCase()) {
+  case 'YES':
+  case 'Y':
+    alert('No dear, unfortunately I don\'t have');
+    break;
+  case 'NO':
+  case 'N':
+    alert('Yeah you are right, I\'m afraid driving');
+    score++;
+    break;
+  default:
+    alert('Please answer with yes/no or y/n');
+    break;
+  }
+  drivingLicense=drivingLicense.toUpperCase();
+  if(drivingLicense==='NO'){
   //console.log('Congratulations, you\'re answer is correct');//
-  alert('Congratulations, you\'re answer is correct');
-}else if(drivingLicense==='N'){
+    alert('Congratulations, you\'re answer is correct');
+  }else if(drivingLicense==='N'){
   //console.log('Congratulations, you\'re answer is correct');//
-  alert('Congratulations, you\'re answer is correct');
+    alert('Congratulations, you\'re answer is correct');
+  }
 }
+question2();
 // Question3
 let swimming = prompt('Do you guess that I can swim?');
 switch (swimming.toUpperCase()) {
