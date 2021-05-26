@@ -164,37 +164,40 @@ function question6(){
 }
 question6();
 // Question7
+function question7(){
+  let typesOfMovies = ['horror', 'thriller', 'comedy', 'action'];
 
-let typesOfMovies = ['horror', 'thriller', 'comedy', 'action'];
-
-outerLoop: {
-  for (let j = 1; j <= 6; j++) {
-    let favMovie = prompt('What is my favourite type of movies do you think ?');
-    favMovie = favMovie.toLowerCase();
-    for (let k = 0; k < typesOfMovies.length; k++) {
-      if (favMovie === typesOfMovies[0] || favMovie === typesOfMovies[1]) {score++;
-        alert('Great! Your answer is correct');
-        break outerLoop;
-      }
-      else if (favMovie === typesOfMovies[2] || favMovie === typesOfMovies[3]) { score++;
-        alert('Well done! correct guess');
-        break outerLoop;
-      }
-      else {
-        alert('Nope! your guess is not correct');
-        break;
+  outerLoop: {
+    for (let j = 1; j <= 6; j++) {
+      let favMovie = prompt('What is my favourite type of movies do you think ?');
+      favMovie = favMovie.toLowerCase();
+      for (let k = 0; k < typesOfMovies.length; k++) {
+        if (favMovie === typesOfMovies[0] || favMovie === typesOfMovies[1]) {score++;
+          alert('Great! Your answer is correct');
+          break outerLoop;
+        }
+        else if (favMovie === typesOfMovies[2] || favMovie === typesOfMovies[3]) { score++;
+          alert('Well done! correct guess');
+          break outerLoop;
+        }
+        else {
+          alert('Nope! your guess is not correct');
+          break;
+        }
       }
     }
+
   }
 
-}
 
-alert(`My favourite movies types are ${typesOfMovies}`);
-if(score===7){
-  alert(`Wow Congratulations ^-^ dear you got ${score}/7`);
-}else{
-  alert(`Your final score is ${score}/7`);
+  alert(`My favourite movies types are ${typesOfMovies}`);
+  if(score===7){
+    alert(`Wow Congratulations ^-^ dear you got ${score}/7`);
+  }else{
+    alert(`Your final score is ${score}/7`);
+  }
 }
+question7();
 let userName = prompt('What is your name ?');
 alert('Greetings, dear' + ' ' + userName + ' ' + 'you are very welcomed at our site');
 alert('Hope you are having fun with us' + ' ' + userName + ' ' + 'It\'s our pleasures to have you as one of our appreciated visitors');
