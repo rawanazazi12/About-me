@@ -58,29 +58,32 @@ function question2(){
 }
 question2();
 // Question3
-let swimming = prompt('Do you guess that I can swim?');
-switch (swimming.toUpperCase()) {
-case 'YES':
-case 'Y':
-  alert('Not really dear, I can\'t');
-  break;
-case 'NO':
-case 'N':
-  alert('Aww yes, you are correct I can\'t ');
-  score++;
-  break;
-default:
-  alert('Please answer with yes/no or y/n');
-  break;
-}
-swimming=swimming.toUpperCase();
-if(swimming==='NO'){
+function question3(){
+  let swimming = prompt('Do you guess that I can swim?');
+  switch (swimming.toUpperCase()) {
+  case 'YES':
+  case 'Y':
+    alert('Not really dear, I can\'t');
+    break;
+  case 'NO':
+  case 'N':
+    alert('Aww yes, you are correct I can\'t ');
+    score++;
+    break;
+  default:
+    alert('Please answer with yes/no or y/n');
+    break;
+  }
+  swimming=swimming.toUpperCase();
+  if(swimming==='NO'){
   //console.log('Congratulations, you\'re answer is correct');//
-  alert('Congratulations, you\'re answer is correct');
-}else if(swimming==='N'){
+    alert('Congratulations, you\'re answer is correct');
+  }else if(swimming==='N'){
   //console.log('Congratulations, you\'re answer is correct');//
-  alert('Congratulations, you\'re answer is correct');
+    alert('Congratulations, you\'re answer is correct');
+  }
 }
+question3 ();
 // Question4
 let tall = prompt('Do you guess that I\'m tall?');
 switch (tall.toLowerCase()) {
