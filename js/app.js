@@ -1,7 +1,9 @@
 'use script';
 alert('Hi, nice to meet you, let\'s play a funny game!');
+
 let score =0
-let pets = prompt('Do you think that I like cats?');
+// Question1
+ let pets = prompt('Do you think that I like cats?');
 switch (pets.toLowerCase()) {
 case 'yes':
 case 'y':
@@ -24,6 +26,8 @@ if(pets==='yes'){
   //console.log('Congratulations, you\'re answer is correct');//
   alert('Congratulations, you\'re answer is correct');
 }
+
+// Question2
 let drivingLicense = prompt('Do you think that I have a driving license?');
 switch (drivingLicense.toUpperCase()) {
 case 'YES':
@@ -47,6 +51,7 @@ if(drivingLicense==='NO'){
   //console.log('Congratulations, you\'re answer is correct');//
   alert('Congratulations, you\'re answer is correct');
 }
+// Question3
 let swimming = prompt('Do you guess that I can swim?');
 switch (swimming.toUpperCase()) {
 case 'YES':
@@ -70,6 +75,7 @@ if(swimming==='NO'){
   //console.log('Congratulations, you\'re answer is correct');//
   alert('Congratulations, you\'re answer is correct');
 }
+// Question4
 let tall = prompt('Do you guess that I\'m tall?');
 switch (tall.toLowerCase()) {
 case 'yes':
@@ -93,6 +99,7 @@ if(tall==='yes'){
   //console.log('Congratulations, you\'re answer is correct');//
   alert('Congratulations, you\'re answer is correct');
 }
+// Question5
 let maritalStatus = prompt('Do you think that I\'m single ?');
 switch (maritalStatus.toLowerCase()) {
 case 'yes':
@@ -118,6 +125,7 @@ if(maritalStatus==='yes'){
 }
 
 
+// Question6
 
 for (let i = 0; i <4; i++) {
   let age = prompt('Guess How old am I? pick a number from 20 to 25');
@@ -139,6 +147,7 @@ for (let i = 0; i <4; i++) {
     alert('I am 23, Thanks for your trials ^-^');
   }
 }
+// Question7
 
 let typesOfMovies = ['horror', 'thriller', 'comedy', 'action'];
 
