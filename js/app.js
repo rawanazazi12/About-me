@@ -1,31 +1,34 @@
 'use script';
 alert('Hi, nice to meet you, let\'s play a funny game!');
 
-let score =0
+let score =0;
 // Question1
- let pets = prompt('Do you think that I like cats?');
-switch (pets.toLowerCase()) {
-case 'yes':
-case 'y':
-  alert('Aww yeah, it\'s correct I like cats^.^');
-  score++;
-  break;
-case 'no':
-case 'n':
-  alert('Oh no, it\'s not correct :( I like cats');
-  break;
-default:
-  alert('Please answer with yes/no or y/n');
-  break;
-}
-pets=pets.toLocaleLowerCase();
-if(pets==='yes'){
+function question1(){
+  let pets = prompt('Do you think that I like cats?');
+  switch (pets.toLowerCase()) {
+  case 'yes':
+  case 'y':
+    alert('Aww yeah, it\'s correct I like cats^.^');
+    score++;
+    break;
+  case 'no':
+  case 'n':
+    alert('Oh no, it\'s not correct :( I like cats');
+    break;
+  default:
+    alert('Please answer with yes/no or y/n');
+    break;
+  }
+  pets=pets.toLocaleLowerCase();
+  if(pets==='yes'){
   //console.log('Congratulations, you\'re answer is correct');//
-  alert('Congratulations, you\'re answer is correct');
-}else if(pets==='y'){
+    alert('Congratulations, you\'re answer is correct');
+  }else if(pets==='y'){
   //console.log('Congratulations, you\'re answer is correct');//
-  alert('Congratulations, you\'re answer is correct');
+    alert('Congratulations, you\'re answer is correct');
+  }
 }
+question1();
 
 // Question2
 let drivingLicense = prompt('Do you think that I have a driving license?');
@@ -140,7 +143,7 @@ for (let i = 0; i <4; i++) {
   } else if (age === 22 || age === 24) {
     alert('Awww dear not really, but you are too close');
   } else {
-    alert('Please only choose a number from 20 to 25'); 
+    alert('Please only choose a number from 20 to 25');
     // console.log(i);
   }
   if(i===3){
@@ -180,8 +183,8 @@ if(score===7){
   alert(`Your final score is ${score}/7`);
 }
 let userName = prompt('What is your name ?');
-alert('Greetings, dear' + " " + userName + " " + 'you are very welcomed at our site');
-alert('Hope you are having fun with us' + " " + userName + " " + 'It\'s our pleasures to have you as one of our appreciated visitors');
+alert('Greetings, dear' + ' ' + userName + ' ' + 'you are very welcomed at our site');
+alert('Hope you are having fun with us' + ' ' + userName + ' ' + 'It\'s our pleasures to have you as one of our appreciated visitors');
 
 
 
