@@ -1,4 +1,4 @@
-# LAB 03
+# LAB 04
 
 ## Extend your 'About Me' and guessing game
 
@@ -7,6 +7,8 @@ On the other hand, make the users feel happy by greeting them using their name i
 Also, I give the users many attempts if they answered wrong so they can answer the question again, at the end I showed them their final score to make them feel fun.
 
 ### Author: Rawan Alazazi
+- Rawan AL-azazi as a navigator
+- Bushra AL-jafari as driver
 
 ### Links and Resources
 
@@ -14,6 +16,7 @@ Also, I give the users many attempts if they answered wrong so they can answer t
 - [Resource](https://github.com/LTUC/amman-201d26/blob/main/class-03/demo/js/app.js)
 
 ### Reflections and Comments
+- Practicing working as a pair programmers.
 
 - I think that I am doing very well and I am acquiring a very good knowledge more than I thought, so I can evaluate my    learning as a very good and in the progress to be excellent since I can test my knowledge during the lab and I started   learning how to fix problems that may faced me while doing the assignments.  
 
