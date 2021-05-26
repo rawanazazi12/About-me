@@ -110,32 +110,34 @@ function question4 (){
     alert('Congratulations, you\'re answer is correct');
   }
 }
-question4 ();
+question4();
 // Question5
-let maritalStatus = prompt('Do you think that I\'m single ?');
-switch (maritalStatus.toLowerCase()) {
-case 'yes':
-case 'y':
-  alert('You are right, I\'m single and feeling free ');
-  score++;
-  break;
-case 'no':
-case 'n':
-  alert('Oops you\'re wrong, I\'m single');
-  break;
-default:
-  alert('Please answer with yes/no or y/n');
-  break;
-}
-maritalStatus=maritalStatus.toLowerCase();
-if(maritalStatus==='yes'){
+function question5(){
+  let maritalStatus = prompt('Do you think that I\'m single ?');
+  switch (maritalStatus.toLowerCase()) {
+  case 'yes':
+  case 'y':
+    alert('You are right, I\'m single and feeling free ');
+    score++;
+    break;
+  case 'no':
+  case 'n':
+    alert('Oops you\'re wrong, I\'m single');
+    break;
+  default:
+    alert('Please answer with yes/no or y/n');
+    break;
+  }
+  maritalStatus=maritalStatus.toLowerCase();
+  if(maritalStatus==='yes'){
   //console.log('Congratulations, you\'re answer is correct');//
-  alert('Congratulations, you\'re answer is correct');
-}else if(maritalStatus==='y'){
+    alert('Congratulations, you\'re answer is correct');
+  }else if(maritalStatus==='y'){
   //console.log('Congratulations, you\'re answer is correct');//
-  alert('Congratulations, you\'re answer is correct');
+    alert('Congratulations, you\'re answer is correct');
+  }
 }
-
+question5();
 
 // Question6
 
