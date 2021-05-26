@@ -198,10 +198,12 @@ function question7(){
   }
 }
 question7();
-let userName = prompt('What is your name ?');
-alert('Greetings, dear' + ' ' + userName + ' ' + 'you are very welcomed at our site');
-alert('Hope you are having fun with us' + ' ' + userName + ' ' + 'It\'s our pleasures to have you as one of our appreciated visitors');
-
+function question8(){
+  let userName = prompt('What is your name ?');
+  alert('Greetings, dear' + ' ' + userName + ' ' + 'you are very welcomed at our site');
+  alert('Hope you are having fun with us' + ' ' + userName + ' ' + 'It\'s our pleasures to have you as one of our appreciated visitors');
+}
+question8();
 
 
 
