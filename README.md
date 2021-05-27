@@ -1,6 +1,6 @@
-# LAB 05
+# LAB 05b
 
-## Extend your 'About Me' and guessing game
+## Finishing the About Me Project
 
 I build a website that allows the interaction with the users by asking them some questions about me in a funny way as a guessing game using JavaScript language and show the users if the answer is correct or not.
 On the other hand, make the users feel happy by greeting them using their name in the greetings message.
