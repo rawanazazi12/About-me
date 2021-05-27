@@ -1,22 +1,20 @@
-# LAB 04
+# LAB 05
 
 ## Extend your 'About Me' and guessing game
 
 I build a website that allows the interaction with the users by asking them some questions about me in a funny way as a guessing game using JavaScript language and show the users if the answer is correct or not.
 On the other hand, make the users feel happy by greeting them using their name in the greetings message.
-Also, I give the users many attempts if they answered wrong so they can answer the question again, at the end I showed them their final score to make them feel fun.
+Also, I give the users many attempts if they answered wrong so they can answer the question again, at the end I showed them their final score to make them feel fun. and then I made some styling using CSS.
 
 ### Author: Rawan Alazazi
-- Rawan AL-azazi as a navigator
-- Bushra AL-jafari as driver
 
 ### Links and Resources
 
 - My notes during the lecture
-- [Resource](https://github.com/LTUC/amman-201d26/blob/main/class-03/demo/js/app.js)
 
 ### Reflections and Comments
-- Practicing working as a pair programmers.
+
+- Adding a new CSS features.
 
 - I think that I am doing very well and I am acquiring a very good knowledge more than I thought, so I can evaluate my    learning as a very good and in the progress to be excellent since I can test my knowledge during the lab and I started   learning how to fix problems that may faced me while doing the assignments.  
 
