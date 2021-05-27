@@ -2,7 +2,6 @@
 alert('Hi, nice to meet you, let\'s play a funny game!');
 
 let score =0;
-// Question1
 function question1(){
   let pets = prompt('Do you think that I like cats?');
   switch (pets.toLowerCase()) {
@@ -21,16 +20,13 @@ function question1(){
   }
   pets=pets.toLocaleLowerCase();
   if(pets==='yes'){
-  //console.log('Congratulations, you\'re answer is correct');//
     alert('Congratulations, you\'re answer is correct');
   }else if(pets==='y'){
-  //console.log('Congratulations, you\'re answer is correct');//
     alert('Congratulations, you\'re answer is correct');
   }
 }
 question1();
 
-// Question2
 function question2(){
   let drivingLicense = prompt('Do you think that I have a driving license?');
   switch (drivingLicense.toUpperCase()) {
@@ -49,15 +45,12 @@ function question2(){
   }
   drivingLicense=drivingLicense.toUpperCase();
   if(drivingLicense==='NO'){
-  //console.log('Congratulations, you\'re answer is correct');//
     alert('Congratulations, you\'re answer is correct');
   }else if(drivingLicense==='N'){
-  //console.log('Congratulations, you\'re answer is correct');//
     alert('Congratulations, you\'re answer is correct');
   }
 }
 question2();
-// Question3
 function question3(){
   let swimming = prompt('Do you guess that I can swim?');
   switch (swimming.toUpperCase()) {
@@ -76,15 +69,12 @@ function question3(){
   }
   swimming=swimming.toUpperCase();
   if(swimming==='NO'){
-  //console.log('Congratulations, you\'re answer is correct');//
     alert('Congratulations, you\'re answer is correct');
   }else if(swimming==='N'){
-  //console.log('Congratulations, you\'re answer is correct');//
     alert('Congratulations, you\'re answer is correct');
   }
 }
 question3 ();
-// Question4
 function question4 (){
   let tall = prompt('Do you guess that I\'m tall?');
   switch (tall.toLowerCase()) {
@@ -103,15 +93,12 @@ function question4 (){
   }
   tall=tall.toLowerCase();
   if(tall==='yes'){
-  //console.log('Congratulations, you\'re answer is correct');//
     alert('Congratulations, you\'re answer is correct');
   }else if(tall==='y'){
-  //console.log('Congratulations, you\'re answer is correct');//
     alert('Congratulations, you\'re answer is correct');
   }
 }
 question4();
-// Question5
 function question5(){
   let maritalStatus = prompt('Do you think that I\'m single ?');
   switch (maritalStatus.toLowerCase()) {
@@ -130,16 +117,13 @@ function question5(){
   }
   maritalStatus=maritalStatus.toLowerCase();
   if(maritalStatus==='yes'){
-  //console.log('Congratulations, you\'re answer is correct');//
     alert('Congratulations, you\'re answer is correct');
   }else if(maritalStatus==='y'){
-  //console.log('Congratulations, you\'re answer is correct');//
     alert('Congratulations, you\'re answer is correct');
   }
 }
 question5();
 
-// Question6
 function question6(){
   for (let i = 0; i <4; i++) {
     let age = prompt('Guess How old am I? pick a number from 20 to 25');
@@ -155,7 +139,6 @@ function question6(){
       alert('Awww dear not really, but you are too close');
     } else {
       alert('Please only choose a number from 20 to 25');
-    // console.log(i);
     }
     if(i===3){
       alert('I am 23, Thanks for your trials ^-^');
@@ -163,7 +146,6 @@ function question6(){
   }
 }
 question6();
-// Question7
 function question7(){
   let typesOfMovies = ['horror', 'thriller', 'comedy', 'action'];
 
@@ -188,7 +170,6 @@ function question7(){
     }
 
   }
-
 
   alert(`My favourite movies types are ${typesOfMovies}`);
   if(score===7){
